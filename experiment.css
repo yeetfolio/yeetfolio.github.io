@@ -34,12 +34,8 @@ a[href]:hover{
     color: #e12bff;
     transition: ease-in 0.1s;
     }
-* {
-	 background-color:#19051f;
-}
+
 body{ 
-    
-     background: url('/moyai-family.png') center center repeat;
      background-color: #19051f;
      background-size: 2em;
      color: #e1ddff;
@@ -80,6 +76,7 @@ img{
 }
 
 .logo{
+  background: url('/moyai-family.png') center center repeat;
   font-family: Poppins, Montserrat, ubuntu, verdana, sans-serif;
   font-weight: 800;
   text-size: 32px;
