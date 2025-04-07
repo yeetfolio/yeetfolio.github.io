@@ -34,7 +34,9 @@ a[href]:hover{
     color: #e12bff;
     transition: ease-in 0.1s;
     }
-
+* {
+	 background-color:#19051f;
+}
 body{ 
     
      background: url('/moyai-family.png') center center repeat;
