@@ -38,7 +38,7 @@ a[href]:hover{
 body{ 
      background-color:#19051f;
      background: url('/moyai-family.png') center center repeat;
-     background-blend-mode: luminosity
+     background-blend-mode: luminosity;
      background-size: 2em;
      color: #e1ddff;
      font-family: Montserrat, hevetica neue, sans-serif;
