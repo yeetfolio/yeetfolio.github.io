@@ -76,7 +76,7 @@ img{
 }
 
 .logo{
-  background: url('/moyai-family.png') center center repeat;
+  background: url('/assets/css/images/banner1.png') center center;
   font-family: Poppins, Montserrat, ubuntu, verdana, sans-serif;
   font-weight: 800;
   text-size: 32px;
