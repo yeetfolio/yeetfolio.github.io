@@ -80,7 +80,7 @@ img{
   margin-bottom: 12.5vw;
   border-bottom: 2px solid #f0dcff;
   background: url('/assets/css/images/banner1.png') center center center;
-  background-size: 25vw;
+  background-size: auto;
   background-repeat: no-repeat;
   font-family: Poppins, Montserrat, ubuntu, verdana, sans-serif;
   font-weight: 800;
