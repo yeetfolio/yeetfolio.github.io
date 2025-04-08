@@ -76,8 +76,8 @@ img{
 }
 
 .logo{
-  padding-top: 12.5vw;
-  padding-bottom: 12.5vw;
+  margin-top: 12.5vw;
+  margin-bottom: 12.5vw;
   border-bottom: 2px solid #f0dcff;
   background: url('/assets/css/images/banner1.png') center;
   background-repeat: no-repeat;
@@ -90,7 +90,7 @@ img{
 .logo h1{
   font-family: Poppins, Montserrat, ubuntu, verdana, sans-serif;
   font-weight: 800;
-  font-size: 20vw;
+  font-size: 12.5vw;
   text-align: center;
   transition: ease-out 0.1s;
   border-bottom: none;
