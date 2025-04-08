@@ -76,8 +76,8 @@ img{
 }
 
 .logo{
-  padding-top: 1in;
-  padding-bottom: 1in;
+  padding-top: 12.5vw;
+  padding-bottom: 12.5vw;
   border-bottom: 2px solid #f0dcff;
   background: url('/assets/css/images/banner1.png') center;
   background-repeat: no-repeat;
