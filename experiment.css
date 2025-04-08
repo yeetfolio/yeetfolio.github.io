@@ -78,7 +78,7 @@ img{
 .logo{
   padding-top: 1in;
   padding-bottom: 1in;
-  background: url('/assets/css/images/banner1.png') center center;
+  background: url('/assets/css/images/banner1.png') center;
   font-family: Poppins, Montserrat, ubuntu, verdana, sans-serif;
   font-weight: 800;
   text-size: 32px;
