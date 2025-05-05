@@ -98,6 +98,10 @@ img{
   border-bottom: none;
 }
 
+#header {
+  position: absolute;
+}
+
 .logo:hover {
   color: #ec64ff;
   text-size: 48px;
