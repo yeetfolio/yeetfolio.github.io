@@ -76,6 +76,7 @@ img{
 }
 
 .logo{
+  position: relative;
   margin-top: 12.5vw;
   margin-bottom: 12.5vw;
   border-bottom: 2px solid #f0dcff;
@@ -85,7 +86,10 @@ img{
   transition: ease-out 0.1s;
 }
 
-.logo h1{
+#logoTxt {
+  top: 50%:
+  bottom: 50%;
+  position: absolute;
   font-family: Poppins, Montserrat, ubuntu, verdana, sans-serif;
   font-weight: 800;
   font-size: 8vw;
