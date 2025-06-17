@@ -32,8 +32,13 @@ a[href]{
   }
 a[href]:hover{
     color: #e12bff;
+    transform: scale(2px,2px);
     transition: ease-in 0.1s;
     }
+a[href]:active{
+    transform: scale(-3px,-3px);
+    transition: ease-in 0.1s;
+}
 
 body{ 
      background-color: #19051f;
