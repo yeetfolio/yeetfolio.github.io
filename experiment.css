@@ -29,15 +29,15 @@ a[href]{
   color: #e17dff;
   transition: ease-out 0.05s;                 
   text-decoration: none;
-  font-size: 12em;
+  font-size: 2em;
   }
 a[href]:hover{
     color: #e12bff;
-    font-size: 14em;;
+    font-size: 3em;;
     transition: ease-in 0.05s;
     }
 a[href]:active{
-    font-size: 10em;
+    font-size: 1em;
     transition: ease-in 0.05s;
 }
 
