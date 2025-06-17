@@ -158,7 +158,13 @@ transition: ease-out 0.1s;
 .linkbar:hover {
 background-color: #06020a;
 border: 1px solid #dcc7ff;
+padding: 4px;
 transition: ease-in 0.1s;
+}
+
+.linkbar:hover:active {
+transition: ease-in 0.1s;
+padding: 2px;
 }
 
 .linkbar a{
