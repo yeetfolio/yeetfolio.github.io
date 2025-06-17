@@ -27,18 +27,18 @@ pre code{
 
 a[href]{
   color: #e17dff;
-  transition: ease-out 0.1s;                 
+  transition: ease-out 0.05s;                 
   text-decoration: none;
   font-size: 12px;
   }
 a[href]:hover{
     color: #e12bff;
     font-size: 14px;
-    transition: ease-in 0.1s;
+    transition: ease-in 0.05s;
     }
 a[href]:active{
     font-size: 10px;
-    transition: ease-in 0.1s;
+    transition: ease-in 0.05s;
 }
 
 body{ 
