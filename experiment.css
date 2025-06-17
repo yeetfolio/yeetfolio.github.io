@@ -29,14 +29,15 @@ a[href]{
   color: #e17dff;
   transition: ease-out 0.1s;                 
   text-decoration: none;
+  font-size: 12px;
   }
 a[href]:hover{
     color: #e12bff;
-    transform: scale(2px,2px);
+    font-size: 14px;
     transition: ease-in 0.1s;
     }
 a[href]:active{
-    transform: scale(-3px,-3px);
+    font-size: 10px;
     transition: ease-in 0.1s;
 }
 
@@ -46,6 +47,7 @@ body{
      color: #e1ddff;
      font-family: Montserrat, hevetica neue, sans-serif;
      font-weight: 500;
+     font-size: 12px;
     }
 
 h1{
