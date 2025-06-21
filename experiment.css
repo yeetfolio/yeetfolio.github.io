@@ -6,6 +6,33 @@
   # GENERAL FORMAT/STYLE #
   ########################*/
 
+@font-face {
+  font-family: redditFont;
+  src: url("./fonts/reddit.ttf") format("truetype/ttf");
+  }
+
+@font-face {
+  font-family: githubFont;
+  src: url("./fonts/github.ttf") format("truetype/ttf");
+  }
+
+@font-face {
+  font-family: discordFont;
+  src: url("./fonts/discord.woff") format("woff");
+  src: url("./fonts/discord.woff2") format("woff2");
+  }
+
+@font-face {
+  font-family: googleFont;
+  src: url("./fonts/google.ttf") format("truetype/ttf")
+  }
+
+@font-face {
+  font-family: appleFont;
+  src: url("./fonts/apple.ttf") format("truetype/ttf");
+  }
+
+
 code,pre{
   background-color: #0a030f;
   font-family: 'Ubuntu mono', 'Courier new', cousine, monospace;
@@ -30,15 +57,32 @@ a[href]{
   transition: ease-out 0.05s;                 
   text-decoration: none;
   font-size: 14px;
-  }
+}
 a[href]:hover{
     color: #e12bff;
     font-size: 18px;
     transition: ease-in 0.05s;
-    }
+}
 a[href]:active{
     font-size: 10px;
     transition: ease-in 0.05s;
+}
+
+a[href="https://*.reddit.com/*"], a[href="https://reddit.com/*"]{
+    color: #FF4500;
+    font-family: redditFont;
+}
+
+a[href="https://github.com/*"], a[href="https://*.github.com/*"],a[href="https://*.github.io/*"] {
+    font-family: githubFont;
+}
+
+a[href="https://*.google.com/*"], a[href="https://google.com"]{
+    font-family: googleFont;
+}
+
+a[href="https://*.apple.com/"], a[href="https://apple.com/"]{
+    font-family: appleFont;
 }
 
 body{ 
