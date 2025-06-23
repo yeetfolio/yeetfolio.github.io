@@ -8,28 +8,28 @@
 
 @font-face {
   font-family: redditFont;
-  src: url("/fonts/reddit.ttf") format("truetype/ttf");
+  src: url("./fonts/reddit.ttf") format("truetype/ttf");
   }
 
 @font-face {
   font-family: githubFont;
-  src: url("/fonts/github.ttf") format("truetype/ttf");
+  src: url("./fonts/github.ttf") format("truetype/ttf");
   }
 
 @font-face {
   font-family: discordFont;
-  src: url("/fonts/discord.woff") format("woff");
-  src: url("/fonts/discord.woff2") format("woff2");
+  src: url("./fonts/discord.woff") format("woff");
+  src: url("./fonts/discord.woff2") format("woff2");
   }
 
 @font-face {
   font-family: googleFont;
-  src: url("/fonts/google.ttf") format("truetype/ttf")
+  src: url("./fonts/google.ttf") format("truetype/ttf")
   }
 
 @font-face {
   font-family: appleFont;
-  src: url("/fonts/apple.ttf") format("truetype/ttf");
+  src: url("./fonts/apple.ttf") format("truetype/ttf");
   }
 
 
