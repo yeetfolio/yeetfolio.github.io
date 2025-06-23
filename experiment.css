@@ -24,12 +24,12 @@
 
 @font-face {
   font-family: googleFont;
-  src: url("./fonts/google.ttf");
+  src: url("fonts/google.ttf");
   }
 
 @font-face {
   font-family: appleFont;
-  src: url("./fonts/apple.ttf");
+  src: url("fonts/apple.ttf");
   }
 
 
