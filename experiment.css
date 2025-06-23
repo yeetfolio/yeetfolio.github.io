@@ -70,27 +70,27 @@ a[href]:active{
 
 a[href*="reddit.com"]{
     color: #FF4500;
-    font-size: 16px;
+    font-size: 14px;
     font-family: redditFont;
 }
 
 a[href*="github.com"], a[href^="github.io"]{
-    font-size: 16px;
+    font-size: 14px;
     font-family: githubFont;
 }
 
 a[href*="google.com"]{
-    font-size: 16px;
+    font-size: 14px;
     font-family: googleFont;
 }
 
 a[href*="apple.com"]{
-    font-size: 16px;
+    font-size: 14px;
     font-family: appleFont;
 }
 
 a[href*="discord.com"], a[href*="discord.gg"]{
-    font-size: 14px;
+    font-size: 16px;
     font-family: discordFont;
 }
 
