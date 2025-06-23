@@ -8,28 +8,28 @@
 
 @font-face {
   font-family: redditFont;
-  src: url("./fonts/reddit.ttf") format("truetype/ttf");
+  src: url("/fonts/reddit.ttf") format("truetype/ttf");
   }
 
 @font-face {
   font-family: githubFont;
-  src: url("./fonts/github.ttf") format("truetype/ttf");
+  src: url("/fonts/github.ttf") format("truetype/ttf");
   }
 
 @font-face {
   font-family: discordFont;
-  src: url("./fonts/discord.woff") format("woff");
-  src: url("./fonts/discord.woff2") format("woff2");
+  src: url("/fonts/discord.woff") format("woff");
+  src: url("/fonts/discord.woff2") format("woff2");
   }
 
 @font-face {
   font-family: googleFont;
-  src: url("./fonts/google.ttf") format("truetype/ttf")
+  src: url("/fonts/google.ttf") format("truetype/ttf")
   }
 
 @font-face {
   font-family: appleFont;
-  src: url("./fonts/apple.ttf") format("truetype/ttf");
+  src: url("/fonts/apple.ttf") format("truetype/ttf");
   }
 
 
@@ -68,20 +68,20 @@ a[href]:active{
     transition: ease-in 0.05s;
 }
 
-a[href="https://*.reddit.com/*"], a[href="https://reddit.com/*"]{
+a[href^="reddit.com"]{
     color: #FF4500;
     font-family: redditFont;
 }
 
-a[href="https://github.com/*"], a[href="https://*.github.com/*"],a[href="https://*.github.io/*"] {
+a[href^="github.com"], a[href^="github.io"]{
     font-family: githubFont;
 }
 
-a[href="https://*.google.com/*"], a[href="https://google.com"]{
+a[href^="google.com"]{
     font-family: googleFont;
 }
 
-a[href="https://*.apple.com/"], a[href="https://apple.com/"]{
+a[href="apple.com"]{
     font-family: appleFont;
 }
 
