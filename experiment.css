@@ -141,6 +141,20 @@ img{
   transition: ease-out 0.1s;
 }
 
+.logo:hover::before{
+  content: "no";
+}
+
+.logo:active::before{
+  content: "stop";
+
+}
+
+.logo:focus::before{
+  content: "kys";
+}
+
+
 #headerTxt {
   transform: translate(-50%, -50%);
   top: 50%:
