@@ -236,12 +236,12 @@ padding: 2px;
 
 .linkbar a{
   color: #dc92ff;
-  transition: ease-out 0.1s;
+  transition: ease-out 0.05s;
 }
 
 .linkbar a:hover {
   color: #dcc7ff;
-  transition: ease-in 0.1s;
+  transition: ease-in 0.05s;
 }
 
 .OPMESSAGE {
