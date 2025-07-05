@@ -225,11 +225,13 @@ transition: ease-out 0.1s;
 .linkbar:hover {
 background-color: #06020a;
 border: 1px solid #dcc7ff;
-padding: 4px;
+border-radius: 9px / 7px;
+padding: 7px;
 transition: ease-in 0.1s;
 }
 
 .linkbar:hover:active {
+border-radius: 4px / 2px;
 transition: ease-in 0.1s;
 padding: 2px;
 }
