@@ -215,7 +215,7 @@ border: none;
 
 .linkbar {
 background-color: #0f0314;
-border-radius: 2px;
+border-radius: 4px / 2px;
 border: 1px solid #dc92ff;
 padding: 5px;  
 text-align: center;
