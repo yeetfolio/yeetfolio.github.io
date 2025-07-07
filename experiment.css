@@ -151,6 +151,7 @@ img{
   font-size: 32px;
   color: #dc92ff;
   transition: ease-in 0.1s;
+  text-align: center;
 }
 
 .logo .logotext:hover{
