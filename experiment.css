@@ -142,8 +142,8 @@ img{
   border-bottom: 2px solid #f0dcff;
 }
 
-.logo.logotext{
-  border-bottom: none;
+.logo .logotext{
+  border-bottom: none!important;
   padding: none;
   font-size: 32px;
 }
