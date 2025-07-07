@@ -139,8 +139,8 @@ img{
   position: relative;
   text-align: center!important;
   transition: ease-in 0.1s;
-  border: 1px solid #f0dcff;
-  background-color: #06020a;
+  border: 1px solid #dc92ff;
+  background-color: #0f0314;
   border-radius: 7px / 5px;
   padding: 5px;
 }
@@ -149,9 +149,24 @@ img{
   border-bottom: none!important;
   padding: none;
   font-size: 32px;
+  color: #dc92ff;
+  transition: ease-in 0.1s;
+}
+
+.logo .logotext:hover{
+  color: #dcc7ff;
+  transition: ease-in 0.1s;
+  font-size: 36px;
+}
+
+.logo .logotext:active{
+  transition: ease-in 0.1s;
+  font-size: 27px;
 }
 
 .logo:hover{
+  border: 1px solid #dcc7ff;
+  background-color: #06020a;
   border-radius: 9px / 7px;
   padding: 7px;
   transition: ease-in 0.1s;
