@@ -137,9 +137,12 @@ img{
 
 .logo{
   position: relative;
-  text-align: center;
-  transition: ease-out 0.1s;
-  border-bottom: 2px solid #f0dcff;
+  text-align: center!important;
+  transition: ease-in 0.1s;
+  border: 1px solid #f0dcff;
+  background-color: #06020a;
+  border-radius: 7px / 5px;
+  padding: 5px;
 }
 
 .logo .logotext{
@@ -148,39 +151,18 @@ img{
   font-size: 32px;
 }
 
-.logo:hover::before{
-  content: "no";
-}
-
-.logo:active::before{
-  content: "stop";
-
-}
-
-.logo:focus::before{
-  content: "kys"!important;
-}
-
-
-#headerTxt {
-  transform: translate(-50%, -50%);
-  top: 50%:
-  bottom: 50%;
-  position: absolute;
-  font-family: Poppins, Montserrat, ubuntu, verdana, sans-serif;
-  font-weight: 800;
-  font-size: 8vw;
-  text-align: center;
-  transition: ease-out 0.1s;
-  border-bottom: none;
-}
-
-.logo:hover {
-  color: #ec64ff;
-  text-size: 48px;
-  font-weight: 900;
+.logo:hover{
+  border-radius: 9px / 7px;
+  padding: 7px;
   transition: ease-in 0.1s;
 }
+
+.logo:active{
+  border-radius: 4px / 2px;
+  padding: 2px;
+  transition: ease-in 0.1s;
+}
+
 
 video {
   margin-left: auto;
@@ -245,7 +227,7 @@ padding: 2px;
 
 .linkbar a{
   color: #dc92ff;
-  transition: ease-out 0.05s;
+  transition: ease-in 0.05s;
 }
 
 .linkbar a:hover {
