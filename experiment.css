@@ -139,6 +139,13 @@ img{
   position: relative;
   text-align: center;
   transition: ease-out 0.1s;
+  border-bottom: 2px solid #f0dcff;
+}
+
+.logo.logotext{
+  border-bottom: none;
+  padding: none;
+  font-size: 32px;
 }
 
 .logo:hover::before{
