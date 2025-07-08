@@ -226,7 +226,8 @@ border: none;
 background-color: #0f0314;
 border-radius: 7px / 5px;
 border: 1px solid #dc92ff;
-padding: 5px;  
+padding-bottom: none;
+padding: 5px;
 text-align: center;
 transition: ease-out 0.1s;
 }
