@@ -7,35 +7,145 @@
   ########################*/
 
 @font-face {
-  font-family: redditFont;
-  src: url("fonts/reddit.ttf");
-  }
+  font-family: "Montserrat";
+  font-style: "normal"
+  font-weight: 500;
+  src: url("/fonts/montserrat/Montserrat-Medium.ttf")
+  format("truetype/ttf");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: "italic";
+  font-weight: "500";
+  src: url("/fonts/montserrat/Montserrat-MediumItalic.ttf")
+  format("truetype/ttf");
+}
 
 @font-face {
-  font-family: githubFont;
-  src: url("fonts/github.ttf");
-  }
+  font-family: "Montserrat";
+  font-style: "normal";
+  font-weight: 700;
+  src: url("/fonts/montserrat/Montserrat-Bold.ttf")
+  format("truetype/ttf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: "normal";
+  font-weight: 800;
+  src: url("/fonts/poppins/Poppins-ExtraBold.ttf")
+  format("truetype/ttf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: "italic";
+  font-weight: 800;
+  src: url("/fonts/poppins/Poppins-ExtraBoldItalic.ttf");
+  format("truetype/ttf");
+}
+
+/*random ass injection*/
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: "italic";
+  font-weight: 700;
+  src: url("/fonts/montserrat/Montserrat-BoldItalic.ttf")
+  format("truetype/ttf");
+}
+
+
+@font-face {
+  font-family: "Poppins";
+  font-style: "normal";
+  font-weight: 700;
+  src: url("/fonts/poppins/Poppins-Bold.ttf")
+  format("truetype/ttf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: "italic";
+  font-weight: 700;
+  src: url("/fonts/poppins/Poppins-BoldItalic.ttf")
+  format("truetype/ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: "normal";
+  font-weight: 500;
+  src: url("/fonts/ubuntu/Ubuntu-Medium.ttf")
+  format("truetype/ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: "italic";
+  font-weight: 500;
+  src: url("/fonts/ubuntu/Ubuntu-MediumItalic.ttf")
+  format("truetype/ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: "normal";
+  font-weight: 700;
+  src: url("/fonts/ubuntu/Ubuntu-Bold.ttf")
+  format("truetype/ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: "italic";
+  font-weight: 700;
+  src: url("/fonts/ubuntu/Ubuntu-BoldItalic.ttf")
+  format("truetype/ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  font-style: "normal";
+  font-weight: 400;
+  src: url("/fonts/ubuntu/mono/Regular.ttf")
+  format("truetype/ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  font-style: "italic";
+  font-weight: 400;
+  src: url("/fonts/ubuntu/mono/Italic.ttf")
+  format("truetype/ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  font-style: "normal";
+  font-weight: 700;
+  src: url("/fonts/ubuntu/mono/Bold.ttf")
+  format("truetype/ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  font-style: "normal";
+  font-weight: 700;
+  src: url("/fonts/ubuntu/mono/BoldItalic.ttf")
+  format("truetype/ttf");
+}
 
 @font-face {
   font-family: discordFont;
-  src: url("fonts/discord.woff");
-  src: url("fonts/discord.woff2");
-  }
-
-@font-face {
-  font-family: googleFont;
-  src: url("fonts/google.ttf");
-  }
-
-@font-face {
-  font-family: appleFont;
-  src: url("fonts/apple.ttf");
-  }
-
-
+  src: url("/fonts/discord.woff")
+  format("woff");
+  src: url("/fonts/discord.woff2")
+  format("woff2");
+}
 code,pre{
   background-color: #0a030f;
-  font-family: 'Ubuntu mono', 'Courier new', cousine, monospace;
+  font-family: 'Ubuntu Mono', 'Courier new', cousine, monospace;
   color: #dcc3eb;
   border: 1px solid #dcc3eb;
   border-radius: 2px;
@@ -57,6 +167,8 @@ a[href]{
   transition: ease-out 0.05s;                 
   text-decoration: none;
   font-size: 14px;
+  font-family: "Ubuntu", "Montserrat", "Poppins", helvetica neue, sans-serif;
+  font-weight: 500;
 }
 a[href]:hover{
     color: #e12bff;
@@ -68,27 +180,6 @@ a[href]:active{
     transition: ease-in 0.05s;
 }
 
-a[href*="reddit.com"]{
-    color: #FF4500;
-    font-size: 14px;
-    font-family: redditFont;
-}
-
-a[href*="github.com"], a[href^="github.io"]{
-    font-size: 14px;
-    font-family: githubFont;
-}
-
-a[href*="google.com"]{
-    font-size: 14px;
-    font-family: googleFont;
-}
-
-a[href*="apple.com"]{
-    font-size: 14px;
-    font-family: appleFont;
-}
-
 a[href*="discord.com"], a[href*="discord.gg"]{
     font-size: 16px;
     font-family: discordFont;
@@ -98,15 +189,15 @@ body{
      background-color: #19051f;
      background-size: 2em;
      color: #e1ddff;
-     font-family: Montserrat, hevetica neue, sans-serif;
+     font-family: "Montserrat", "Poppins", "Ubuntu", "hevetica neue", sans-serif;
      font-weight: 500;
      font-size: 14px;
     }
 
 h1{
- font-weight: 700;
+ font-weight: 800;
  text-align: left;
- font-family: Poppins, Montserrat, ubuntu, verdana, sans serif; 
+ font-family: "Poppins", "Montserrat", "Ubuntu", serif; 
  border-bottom: 2px solid #f0dcff;
  padding: 2px;
 }
@@ -114,7 +205,7 @@ h1{
 h3{
  font-weight: 700;
  text-align: center;
- font-family: Poppins, Montserrat,  ubuntu, verdana, sans serif;
+ font-family: "Poppins", "Montserrat", "Ubuntu", serif;
  padding: 2px;
 }
 
@@ -247,6 +338,7 @@ padding: 2px;
 }
 
 .linkbar a{
+  font-family: "Montserrat", "Ubuntu", "Poppins", "Verdana", sans-serif;
   color: #dc92ff;
   transition: ease-in 0.05s;
 }
@@ -264,5 +356,5 @@ padding: 2px;
   border: 1px solid #ffbaba;
   background-color: #210000;
   color: #ffbaba;
-  font-family: ubuntu mono, courier new, monospace;
+  font-family: "ubuntu Mono", "Roboto Mono", "Courier New", monospace;
 }
