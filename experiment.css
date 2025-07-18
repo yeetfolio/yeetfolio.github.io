@@ -95,20 +95,14 @@ img{
 }
 
 img:hover{
-  width: 110%
-  height: auto;
-  max-width: 115%;
-  height: auto;
+  transform: scale(1.05);
   border: 2.5px solid #dcc7ff;
   border-radius: 9px / 7px;
   transition: ease-in 0.1s;
 }
 
 img:hover:active{
-   width: 65%
-   height: auto;
-   max-width: 70%
-   height: auto;
+   transform: scale(0.90);
    border-radius: 4px / 2px;
    transition: ease-in 0.1s;
 
