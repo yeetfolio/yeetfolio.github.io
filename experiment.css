@@ -101,7 +101,7 @@ img:hover{
   transition: ease-in 0.1s;
 }
 
-img:hover:active{
+img:active{
    transform: scale(0.90);
    border-radius: 4px / 2px;
    transition: ease-in 0.1s;
