@@ -234,6 +234,17 @@ padding: 2px;
 margin-top: 2px;
 }
 
+.linkbar_div:hover{
+padding: 0px;
+margin-top: 2px;
+}
+
+.linkbar_div:hover:active{
+padding: 4px;
+margin-top: 0px;
+}
+
+
 .linkbar a{
   font-family: "Montserrat", "Ubuntu", "Poppins", "Verdana", sans-serif;
   color: #dc92ff;
