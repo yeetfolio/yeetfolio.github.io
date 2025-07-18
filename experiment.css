@@ -247,7 +247,7 @@ padding: 0px;
 margin-top: 4px;
 }
 
-linkbar_div::active{
+linkbar_div:active{
 padding: 4px;
 margin-top: 0px;
 }
