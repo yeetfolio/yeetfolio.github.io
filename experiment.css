@@ -105,7 +105,7 @@ img:hover:active{
    transform: scale(0.90);
    border-radius: 4px / 2px;
    transition: ease-in 0.1s;
-
+}
 .logo{
   position: relative;
   text-align: center!important;
