@@ -27,7 +27,7 @@ pre code{
 
 a[href]{
   color: #e17dff;
-  transition: ease-out 0.05s;                 
+  transition: ease-out 0.1s;                 
   text-decoration: none;
   font-size: 14px;
   font-family: "Ubuntu", "Montserrat", "Poppins", helvetica neue, sans-serif;
@@ -36,11 +36,11 @@ a[href]{
 a[href]:hover{
     color: #e12bff;
     font-size: 18px;
-    transition: ease-in 0.05s;
+    transition: ease-in 0.1s;
 }
 a[href]:active{
     font-size: 10px;
-    transition: ease-in 0.05s;
+    transition: ease-in 0.1s;
 }
 
 a[href*="discord.com"], a[href*="discord.gg"]{
@@ -95,7 +95,7 @@ img{
 }
 
 img:hover{
-  transform: scale(1.10);
+  transform: scale(1.05);
   border: 3px solid #dcc7ff;
   border-radius: 9px / 7px;
   transition: ease-in 0.05s;
@@ -261,12 +261,12 @@ margin-top: 0px;
 .linkbar a{
   font-family: "Montserrat", "Ubuntu", "Poppins", "Verdana", sans-serif;
   color: #dc92ff;
-  transition: ease-in 0.05s;
+  transition: ease-in 0.1s;
 }
 
 .linkbar a:hover {
   color: #dcc7ff;
-  transition: ease-in 0.05s;
+  transition: ease-in 0.1s;
 }
 	
 .OPMESSAGE {
