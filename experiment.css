@@ -229,6 +229,14 @@ transition: ease-in 0.1s;
 padding: 2px;
 }
 
+.linkbar:active {
+border: 2.0px solid #dc92ff;
+background-color: #0f0314;
+border-radius: 4px / 2px;
+transition: ease-in 0.1s;
+padding: 2px;
+}
+
 .linkbar_div {
 padding: 2px;
 margin-top: 2px;
@@ -237,6 +245,11 @@ margin-top: 2px;
 .linkbar_div:hover{
 padding: 0px;
 margin-top: 4px;
+}
+
+linkbar_div::active{
+padding: 4px;
+margin-top: 0px;
 }
 
 .linkbar_div:hover:active{
