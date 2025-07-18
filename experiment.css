@@ -200,6 +200,10 @@ transition: ease-in 0.1s;
 padding: 2px;
 }
 
+.linkbar_div {
+padding: 2px;
+}
+
 .linkbar a{
   font-family: "Montserrat", "Ubuntu", "Poppins", "Verdana", sans-serif;
   color: #dc92ff;
