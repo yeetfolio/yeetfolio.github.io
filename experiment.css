@@ -95,17 +95,26 @@ img{
 }
 
 img:hover{
-  transform: scale(1.05);
+  transform: scale(1.10);
   border: 2.5px solid #dcc7ff;
   border-radius: 9px / 7px;
-  transition: ease-in 0.01s;
+  transition: ease-in 0.05s;
 }
 
 img:active{
    transform: scale(0.90);
    border-radius: 4px / 2px;
-   transition: ease-out 0.01s;
+   transition: ease-in 0.05s;
+
 }
+
+img:hover:active{
+   transform: scale(0.90);
+   border-radius: 4px / 2px;
+   transition: ease-in 0.05s;
+
+}
+
 .logo{
   position: relative;
   text-align: center!important;
