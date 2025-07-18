@@ -82,7 +82,7 @@ footer{
     
     }
 img{
-  border: 2.5px solid #0f0314;
+  border: 2.2px solid #0f0314;
   border-radius: 7px / 5px;
   width: auto;
   height: auto;
@@ -97,7 +97,7 @@ img{
   position: relative;
   text-align: center!important;
   transition: ease-in 0.1s;
-  border: 2.5px solid #dc92ff;
+  border: 2.2px solid #dc92ff;
   background-color: #0f0314;
   border-radius: 7px / 5px;
   padding: 5px;
@@ -124,7 +124,7 @@ img{
 }
 
 .logo:hover{
-  border: 2.5px solid #dcc7ff;
+  border: 2.2px solid #dcc7ff;
   background-color: #06020a;
   border-radius: 9px / 7px;
   padding: 7px;
@@ -161,7 +161,7 @@ video {
   display: block;
   text-align: center;
   border-radius: 2px;
-  border: 1px solid #ffb69c;
+  border: 2.2px solid #ffb69c;
   background-color: #5e1b00;
   color: #ffb69c;
   font-family: ubuntu mono, courier new, monospace;
@@ -179,7 +179,7 @@ border: none;
 .linkbar {
 background-color: #0f0314;
 border-radius: 7px / 5px;
-border: 2.5px solid #dc92ff;
+border: 2.2px solid #dc92ff;
 padding-bottom: none;
 padding: 5px;
 text-align: center;
@@ -188,7 +188,7 @@ transition: ease-out 0.1s;
 
 .linkbar:hover {
 background-color: #06020a;
-border: 2.5px solid #dcc7ff;
+border: 2.2px solid #dcc7ff;
 border-radius: 9px / 7px;
 padding: 7px;
 transition: ease-in 0.1s;
