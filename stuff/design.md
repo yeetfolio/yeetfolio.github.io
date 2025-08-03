@@ -1,3 +1,10 @@
+---
+title: "Design Guidelines"
+layout: experiment
+theme: base
+---
+
+
 # MANGOIN' DESIGN GUIDELINES
 
 These guidelines are writting for me to personally adhere to, for consistancy in the design of my
