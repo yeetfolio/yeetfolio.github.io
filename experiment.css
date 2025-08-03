@@ -148,9 +148,9 @@ img:hover:active{
   font-size: 27px;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 720px) { /*Small tablets*/
 .logo .logotext{
-  border-bottom: none!important;
+  border-bottom: none!important; 
   padding: none;
   font-size: 22px;
   color: #dc92ff;
@@ -170,7 +170,7 @@ img:hover:active{
   font-size: 17px;
 }}
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 640px) { /*large/modern phones*/
 .logo .logotext{
   border-bottom: none!important;
   padding: none;
@@ -183,7 +183,7 @@ img:hover:active{
 .logo .logotext:hover{
   color: #dcc7ff;
   transition: ease-in 0.1s;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .logo .logotext:active{
