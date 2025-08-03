@@ -21,7 +21,7 @@ good and bad for my sake.
 
 ### WHAT TO DO:
 
-1. **Include a linkbar**
+\1. **Include a linkbar**
 A linkbar is what I call navigation bars, because I created the one in my website before I even knew
 it had a real name. The linkbar should contain only the most IMPORTANT links and such. The links on
 the linkbar should change depending on the page's content/subject. 
@@ -41,7 +41,7 @@ If you look at the linkbar on [this site](https://yeetfolio.github.io/stuff/desi
 notice that the links are centered in the bar. There is blank space between the links and the side's
 borders. That space should be minimum 3.5mm(length of a standard headphone cord) long on a phone.
 
-2. **Small devices in mind**
+\2. **Small devices in mind**
 This website was originally designed on a mobile phone. This actually has a lot of advantages, as the
 layout, by heart, is designed to be able to be smushed down on a 5 inch screen in portrait mode.
 
@@ -50,7 +50,7 @@ layout for larger screens, such as tablets, laptops and PCs. All without droppin
 queries. But, it still doesn't hurt to have *some* `@media`s, but only to change small things, such
 as text size. This is to keep maximum consistancy, which brings us to the next point:
 
-3. **Consistancy**
+\3. **Consistancy**
 Don't make a button that has sharp corners when every other button has rounded corners, and dont 
 change the layout of individual pages, no matter HOW different they are. My site has a certain type
 of corner rounding, eclipse borders, and those borders are used throughout the WHOLE site. 
@@ -59,7 +59,7 @@ The standard border width on my site is `2px` as I recall, and every border star
 
 Even the animations for stuff you can interact with are the same: enlarge on hover, shrink on click. Consistancy is key to a decent user experience.
 
-4. **No funky javascript hacks**
+\4. **No funky javascript hacks**
 No fancy javascript animations in websites, and no delaying stuff to do those animations.
 If css is an option, use it.
 
@@ -69,7 +69,7 @@ Javascript on my site should be used to actually do stuff, and should only inter
 also no complicated 3rd party scripts like `video.js` and the like, those just make the experience
 sluggier and bad.
 
-5. **COLORS**
+\5. **COLORS**
 Always use a vibrant color for each page. Don't ever use something like black-on-white or white-on-b--lack unless its for a specific reason. Always use vibrant colors that contrast with eachother 
 decently and don't look bugshit ugly.
 
