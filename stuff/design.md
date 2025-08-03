@@ -71,9 +71,15 @@ also no complicated 3rd party scripts like `video.js` and the like, those just m
 sluggier and bad.
 
 #### 5. **COLORS**
-Always use a vibrant color for each page. Don't ever use something like black-on-white or white-on-black unless its for a specific reason. Always use vibrant colors that contrast with eachother 
-decently and don't look bugshit ugly.
+Always use a vibrant color for each page. Don't ever use something like black-on-white or white-on-black unless its for a specific reason. Always use vibrant colors that contrast with eachother decently and don't look bugshit ugly.
 
 Also, red as a main color should be used on error pages, and nowheres else.
 
+You may be wondering why I havent written the other part of this yet, simple: 
 
+*I Am too lazy and have no ideas to go on with*. That's kinda the whole thing with this site, though, isnt it? The main thing with this sites design is that it is very improvised, and made as I go 
+along. Its okay to make a change, realize that change was shit, then go back on it. That's just making a mistake, and we all learn from our mistakes. Anyways, wheres the "WHAT NOT TO DO"'s? They'll be 
+here soon, don't worry, but heres the first one while you wait:
+
+#### 1. **DO NOT COMMIT AND PUSH HALF FINISHED BULLSHIT**
+Self Explainatory.
