@@ -35,8 +35,7 @@ Lets add one more to that, now it would be 14. Thats an even number now, and it 
 amount of characters that should be in a link in the linkbar. 
 If a link is too long, it will take up valuable space. 
 
-Speaking of valuable space, the links themselves take up some pretty big space. This is fine, how-
--ever, there is a point when I consider them to take up too much space.
+Speaking of valuable space, the links themselves take up some pretty big space. This is fine, however, there is a point when I consider them to take up too much space.
 
 If you look at the linkbar on [this site](https://yeetfolio.github.io/design-guide), you will 
 notice that the links are centered in the bar. There is blank space between the links and the side's
@@ -66,14 +65,13 @@ Even the animations for stuff you can interact with are the same: enlarge on hov
 No fancy javascript animations in websites, and no delaying stuff to do those animations.
 If css is an option, use it.
 
-Javascript on my site should be used to actually do stuff, and should only interact with HTML Docum-
--ents, not the stylesheets.
+Javascript on my site should be used to actually do stuff, and should only interact with HTML Documents, not the stylesheets.
 
 also no complicated 3rd party scripts like `video.js` and the like, those just make the experience
 sluggier and bad.
 
 #### 5. **COLORS**
-Always use a vibrant color for each page. Don't ever use something like black-on-white or white-on-b--lack unless its for a specific reason. Always use vibrant colors that contrast with eachother 
+Always use a vibrant color for each page. Don't ever use something like black-on-white or white-on-black unless its for a specific reason. Always use vibrant colors that contrast with eachother 
 decently and don't look bugshit ugly.
 
 Also, red as a main color should be used on error pages, and nowheres else.
