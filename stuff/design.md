@@ -2,7 +2,7 @@
 title: "Design Guidelines"
 layout: experiment
 theme: base
-permalink: /designguide/
+permalink: /design-guide/
 ---
 
 
@@ -38,7 +38,7 @@ If a link is too long, it will take up valuable space.
 Speaking of valuable space, the links themselves take up some pretty big space. This is fine, how-
 -ever, there is a point when I consider them to take up too much space.
 
-If you look at the linkbar on [this site](https://yeetfolio.github.io/stuff/design), you will 
+If you look at the linkbar on [this site](https://yeetfolio.github.io/design-guide), you will 
 notice that the links are centered in the bar. There is blank space between the links and the side's
 borders. That space should be minimum 3.5mm(length of a standard headphone cord) long on a phone.
 
