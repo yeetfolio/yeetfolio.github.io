@@ -127,51 +127,6 @@ img:hover:active{
   padding: 5px;
 }
 
-@media only screen and (max-width: 640px) {
-.logo .logotext{
-  border-bottom: none!important;
-  padding: none;
-  font-size: 22px;
-  color: #dc92ff;
-  transition: ease-in 0.1s;
-  text-align: center;
-}
-
-.logo .logotext:hover{
-  color: #dcc7ff;
-  transition: ease-in 0.1s;
-  font-size: 26px;
-}
-
-.logo .logotext:active{
-  color: #dc92ff;
-  transition: ease-in 0.1s;
-  font-size: 17px;
-}}	
-
-@media only screen and (max-width: 720px) {
-.logo .logotext{
-  border-bottom: none!important;
-  padding: none;
-  font-size: 22px;
-  color: #dc92ff;
-  transition: ease-in 0.1s;
-  text-align: center;
-}
-
-.logo .logotext:hover{
-  color: #dcc7ff;
-  transition: ease-in 0.1s;
-  font-size: 26px;
-}
-
-.logo .logotext:active{
-  color: #dc92ff;
-  transition: ease-in 0.1s;
-  font-size: 17px;
-}}	
-
-@media only screen and (max-width: 1200px) {
 .logo .logotext{
   border-bottom: none!important;
   padding: none;
@@ -193,6 +148,52 @@ img:hover:active{
   font-size: 27px;
 }
 
+@media only screen and (max-width: 720px) {
+.logo .logotext{
+  border-bottom: none!important;
+  padding: none;
+  font-size: 22px;
+  color: #dc92ff;
+  transition: ease-in 0.1s;
+  text-align: center;
+}
+
+.logo .logotext:hover{
+  color: #dcc7ff;
+  transition: ease-in 0.1s;
+  font-size: 26px;
+}
+
+.logo .logotext:active{
+  color: #dc92ff;
+  transition: ease-in 0.1s;
+  font-size: 17px;
+}}
+
+@media only screen and (max-width: 640px) {
+.logo .logotext{
+  border-bottom: none!important;
+  padding: none;
+  font-size: 22px;
+  color: #dc92ff;
+  transition: ease-in 0.1s;
+  text-align: center;
+}
+	
+.logo .logotext:hover{
+  color: #dcc7ff;
+  transition: ease-in 0.1s;
+  font-size: 26px;
+}
+
+.logo .logotext:active{
+  color: #dc92ff;
+  transition: ease-in 0.1s;
+  font-size: 17px;
+}}	
+
+
+	
 .logo:hover{
   border: 3px solid #dcc7ff;
   background-color: #06020a;
