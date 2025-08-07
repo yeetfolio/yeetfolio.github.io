@@ -139,7 +139,7 @@ img:hover:active{
 .logo .logotext:hover{
   color: #dcc7ff;
   transition: ease-in 0.1s;
-  font-size: 36px;
+  font-size: 34px;
 }
 
 .logo .logotext:active{
@@ -161,7 +161,7 @@ img:hover:active{
 .logo .logotext:hover{
   color: #dcc7ff;
   transition: ease-in 0.1s;
-  font-size: 26px;
+  font-size: 24px;
 }
 
 .logo .logotext:active{
