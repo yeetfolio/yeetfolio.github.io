@@ -119,6 +119,7 @@ img:hover:active{
   transition: ease-in 0.1s;
   border: 2.0px solid #dc92ff;
   background-color: #0f0314;
+  background-image: url(../blacklung.jpg);
   border-radius: 7px / 5px;
   padding: 5px;
 }
