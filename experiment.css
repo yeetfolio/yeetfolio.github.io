@@ -121,6 +121,7 @@ img:hover:active{
   background-color: #0f0314;
   background-image: url(../blacklung.jpg);
   object-fit: cover;
+  object-position: 75% 50%;
   border-radius: 7px / 5px;
   padding: 5px;
 }
