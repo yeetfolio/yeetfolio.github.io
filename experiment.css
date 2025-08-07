@@ -35,17 +35,12 @@ a[href]{
 }
 a[href]:hover{
     color: #e12bff;
-    font-size: 18px;
+    font-size: 16px;
     transition: ease-in 0.1s;
 }
 a[href]:active{
-    font-size: 10px;
+    font-size: 12px;
     transition: ease-in 0.1s;
-}
-
-a[href*="discord.com"], a[href*="discord.gg"]{
-    font-size: 16px;
-    font-family: discordFont;
 }
 
 body{ 
@@ -312,6 +307,13 @@ margin-top: 0px;
 
 .linkbar a:hover {
   color: #dcc7ff;
+  font-size: 18px;
+  transition: ease-in 0.1s;
+}
+
+.linkbar a:active {
+  color: #dc92ff;
+  font-size: 12px;
   transition: ease-in 0.1s;
 }
 	
