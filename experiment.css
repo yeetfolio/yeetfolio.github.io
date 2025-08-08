@@ -18,7 +18,7 @@
   transition: ease-in 0.1s;
   border: 2.0px solid #dc92ff;
   background-color: #0f0314;
-  background-image: url(../blacklung.jpg);
+  background-image: url(./blacklung.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: scroll;
@@ -116,6 +116,24 @@ code,pre{
   padding: 2px;
 }
 
+a[href]{
+  color: #e17dff;
+  transition: ease-out 0.1s;                 
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Ubuntu", "Montserrat", "Poppins", helvetica neue, sans-serif;
+  font-weight: 500;
+}
+a[href]:hover{
+    color: #e12bff;
+    font-size: 16px;
+    transition: ease-in 0.1s;
+}
+a[href]:active{
+    font-size: 12px;
+    transition: ease-in 0.1s;
+}
+
 
 /*My dumbass forgot to paste the linkbar in after cutting it*/
 .linkbar {
@@ -158,8 +176,10 @@ margin-top: 2px;
 }
 
 .linkbar_div:hover{
+transition: 0.05s ease-in;
 padding: 0px;
-margin-top: 4px;
+margin-top: 2px;
+margin-bottom: 2px;
 }
 
 linkbar_div:active{
@@ -201,23 +221,6 @@ pre code{
 	padding 2px;
 }
 
-a[href]{
-  color: #e17dff;
-  transition: ease-out 0.1s;                 
-  text-decoration: none;
-  font-size: 14px;
-  font-family: "Ubuntu", "Montserrat", "Poppins", helvetica neue, sans-serif;
-  font-weight: 500;
-}
-a[href]:hover{
-    color: #e12bff;
-    font-size: 16px;
-    transition: ease-in 0.1s;
-}
-a[href]:active{
-    font-size: 12px;
-    transition: ease-in 0.1s;
-}
 
 body{ 
      background-color: #19051f;
